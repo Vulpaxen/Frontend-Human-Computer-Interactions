@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrskins - Bodycare and Skincare</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/valid.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION + HEADER + TITLE -->
+    <div class="headerContainer">
+        <div class="container-navbody">
+            <nav class="navbar">
+                <a href="index.html">
+                    <img src="img/logo.png" class="navbar-logo">
+                </a>
+                <div class="navItems">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="products.html" class="nav-link">Products</a>
+                    <a href="promotion.html" class="nav-link">Promotion</a>
+                    <a href="subscribe.html" class="nav-link-active">Subscribe</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="titleContainer">
+        <h1 class="titles">Subscribe to get updates and promotions!</h1>
+    </div>
+    <!-- NAVIGATION + HEADER + TITLE -->
+
+    <!-- CONTENT -->
+    <div class="newsContainer">
+        <div class="formContent">
+                    <div class="formContainer">
+                        <button id="agree">Click here to agree to receive our newsletter</button>
+                        <form id="form" method="POST">
+                            <div>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" placeholder="Your name" />
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" placeholder="Email" />
+                            </div>
+                            <br>
+                            <div>
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" placeholder="Phone number" />
+                            </div>
+                            <br>
+                            <div>
+                                <label for="birthday">Birthdate:</label>
+                                <input type="date" id="date" name="birthday" />
+                            </div>
+                            <br>
+                            <div>
+                                <label for="age">Age(12-50)(Optional):</label>
+                                <input type="number" id="age" name="age" min="12" max="50"/>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="pref">Preference(Skincare/Bodycare):</label>
+                                <br>
+                                <input type="radio" name="pref" id="Skin" value="Skincare"/>
+                                <p1>Skincare</p1>
+
+                                <input type="radio" name="pref" id="Body" value="Bodycare" />
+                                <p1>Bodycare</p1>
+
+                            </div>
+                            <br>
+                            <div class="endForm">
+                                <div id="error"></div>
+                                <button href="#" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+
+    <!-- FOOTER -->
+    <div class="footerContainer">
+        <div class="socialmedia">
+            <p>Our Social Media</p>
+        </div>
+        <a href="https://www.facebook.com"><img src="img/facebook.png" class="icon"></a>
+        <a href="https://www.twitter.com"><img src="img/twitter.jpg" class="icon"></a>
+        <a href="https://www.instagram.com"><img src="img/instagram.png" class="icon"></a>
+        <a href="https://www.youtube.com"><img src="img/youtube.png" class="icon"></a>
+        <div class="copyright">
+            <p>© 2022 VORSKINS COMPANY LIMITED.</p>
+            <p>A REGISTERED TRADEMARK OF VORSKINS COMPANY LIMITED ™ </p>
+            <p> ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+    <!-- FOOTER -->
+</body>
+
+</html>
